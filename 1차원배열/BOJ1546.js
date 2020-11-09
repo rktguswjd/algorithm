@@ -14,7 +14,7 @@ const getAverage = (numbers, M, N) => {
 };
 
 const testCase = (input) => {
-  const numbers = [...input[1].split(" ")].map((number) => parseInt(number));
+  const numbers = input[1].split(" ").map((number) => parseInt(number));
   const M = Math.max(...numbers);
   const N = input[0];
   getAverage(numbers, M, N);
