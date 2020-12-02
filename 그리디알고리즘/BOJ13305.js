@@ -20,7 +20,7 @@ const solution = (input) => {
     lenSum = 0;
     startCity = nextCity;
   }
-  if (lenSum != 0) cost += start * lenSum;
+  if (lenSum != 0) cost += startCity * lenSum;
   console.log(cost);
 };
 
